@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Severity badges</title>
+  <link rel="stylesheet" href="/node_modules/@elastio/pursuit-ui/tokens.css">
+  <link rel="stylesheet" href="/src/severity-badge.css">
+</head>
+<body>
+  <div id="badges"></div>
+  <script type="module">
+    import { SEVERITIES, renderSeverityBadge } from '/src/severity-badge.js';
+    const root = document.getElementById('badges');
+    // The last badge (undefined) shows the neutral empty state.
+    for (const s of [...SEVERITIES, undefined]) root.append(renderSeverityBadge(s));
+  </script>
+</body>
+</html>

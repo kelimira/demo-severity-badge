@@ -1,0 +1,11 @@
+/* Stand-in for @elastio/pursuit-ui/tokens.css (real SDK is unavailable offline). */
+:root {
+  --font-sans: system-ui, sans-serif;
+  --fg-soft: #475569;
+  --border: #cbd5e1;
+  --sev-critical-fg: #7f1d1d; --sev-critical-bg: #fee2e2; --sev-critical-border: #fca5a5;
+  --sev-high-fg: #7c2d12; --sev-high-bg: #ffedd5; --sev-high-border: #fdba74;
+  --sev-medium-fg: #713f12; --sev-medium-bg: #fef9c3; --sev-medium-border: #fde047;
+  --sev-low-fg: #14532d; --sev-low-bg: #dcfce7; --sev-low-border: #86efac;
+  --sev-info-fg: #1e3a8a; --sev-info-bg: #dbeafe; --sev-info-border: #93c5fd;
+}

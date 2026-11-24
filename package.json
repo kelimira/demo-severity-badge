@@ -1,0 +1,7 @@
+{
+  "name": "severity-badge-demo",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "playwright test" },
+  "devDependencies": { "@playwright/test": "^1.49.0" }
+}
